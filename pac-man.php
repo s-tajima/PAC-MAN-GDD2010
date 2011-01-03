@@ -46,7 +46,7 @@ for($i = 2; $i <= TIME_LIMIT; $i++){
 	$fields_fixed = set_char($fields, $user, $chars);
 	$fields_drawble = draw_fields($fields_fixed);
 	echo $fields_drawble;
-	echo "TURN({$i}/".TIME_LIMIT.") END\n\n";
+	echo "TIME({$i}/".TIME_LIMIT.") END\n\n";
 }
 
 echo "INPUTED:{$input_log}\n";
